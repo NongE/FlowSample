@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="50"
+    android:repeatCount="5"
+    android:repeatMode="reverse">
+
+    <propertyValuesHolder
+        android:propertyName="translationX"
+        android:valueFrom="5"
+        android:valueTo="-5" />
+
+</objectAnimator>
